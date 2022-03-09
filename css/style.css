@@ -29,7 +29,7 @@ li a {
 }
 
 .accueil_img {
-    background-image: url(/assets/img/Background_server.jpg)
+    background-image: url(../assets/img/Background_server.jpg)
 }
 
 #trait {
@@ -57,7 +57,7 @@ li a {
 .UTEC_img {
     /* Sur l'image, on applique un filtre noir à 50% */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                  url(/assets/img/Utec-Avon.jpg);
+                  url(../assets/img/Utec-Avon.jpg);
 }
 
 .icons_UTEC {
