@@ -1,0 +1,181 @@
+body {
+    font-size: 1.25rem;
+    background-color: #F2F2F2;
+}
+
+/* On met un container pour mettre une taille max et éviter les débordemments */
+.container {
+   max-width: 1920px;
+   padding: 0;
+}
+
+ul {
+    /* Retirer les points sur la navbar */
+    list-style: none;
+    /* Margin 0 pour appliquer la propriété à tout le site */
+    margin: 0; 
+}
+
+li a {
+    /* Pas d'habillage sur la navbar */
+    text-decoration: none;
+    color: #000000;
+}
+
+.my_photo {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+.accueil_img {
+    background-image: url(/assets/img/Background_server.jpg)
+}
+
+#trait {
+    height: 3px;
+    width: 30%;
+    /* Opacity à 1 car pas à 1 par défaut sur Bootstrap */
+    opacity: 1;
+}
+
+.article_center {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
+
+.quality {
+    border-radius: 10px;
+    background-color:rgb(166, 195, 203);
+    width: 48%;
+    -webkit-box-shadow: 0px 7px 19px -2px #000000; 
+    box-shadow: 0px 7px 19px -2px #000000;
+}
+
+.UTEC_img {
+    /* Sur l'image, on applique un filtre noir à 50% */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url(/assets/img/Utec-Avon.jpg);
+}
+
+.icons_UTEC {
+    width: 20%;
+}
+
+.txt-red {
+    color: red;
+}
+
+.txt-blue {
+    color: blue;
+}
+.txt-green {
+    color: rgb(20, 172, 20);
+}
+.txt-teal {
+    color: rgb(26, 200, 243);
+}
+.txt-grey {
+    color: grey;
+}
+
+#avon_exter {
+    width: 400px;
+    height: 300px;
+}
+
+#rectangle_gris {
+    border-radius: 10px;
+    background-color:rgb(218, 218, 218);
+    -webkit-box-shadow: 0px 7px 19px -2px #000000; 
+    box-shadow: 0px 7px 19px -2px #000000;
+}
+
+#rectangle_SISR {
+    border-radius: 10px;
+    background-color:rgb(218, 218, 218);
+    -webkit-box-shadow: 0px 7px 19px -2px #000000; 
+    box-shadow: 0px 7px 19px -2px #000000;
+}
+
+#rectangle_SLAM {
+    border-radius: 10px;
+    background-color:rgb(218, 218, 218);
+    -webkit-box-shadow: 0px 7px 19px -2px #000000; 
+    box-shadow: 0px 7px 19px -2px #000000;
+}
+
+#image_SISR, #image_SLAM {
+    width: 500px;
+    height: 300px;
+}
+
+.mon_choix img {
+    width: 400px;
+    height: 300px;
+}
+
+.hr_point {
+    border-bottom: 3px #000000;
+    width: 80%;
+    opacity: 1;
+}
+
+.hr_point2 {
+    border-bottom: 3px #000000;
+    width: 50%;
+    opacity: 1;
+}
+
+.quality_entreprise {
+    border-radius: 10px;
+    background-color:rgb(166, 195, 203);
+    width: 48%;
+    -webkit-box-shadow: 0px 7px 19px -2px #000000; 
+    box-shadow: 0px 7px 19px -2px #000000;
+}
+
+.entreprise_container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.entreprise_img1 {
+    width: 400px;
+    height: 300px;
+}
+
+.entreprise_fin {
+    width: 33%;
+}
+
+.img_endp3 {
+    width: 300px;
+    height: 250px;
+}
+
+.img_endp3_5 {
+    width: 400px;
+    height: 300px;
+}
+
+.projets_box {
+    border-radius: 10px;
+    background-color:rgb(166, 195, 203);
+    width: 40%;
+    -webkit-box-shadow: 0px 7px 19px -2px #000000; 
+    box-shadow: 0px 7px 19px -2px #000000;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.banque {
+    width: 200px;
+    height: 100px;
+}
+
+.white_star {
+    color: white;
+}
