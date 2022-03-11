@@ -164,7 +164,7 @@ li a {
 .projets_box {
     border-radius: 10px;
     background-color:rgb(166, 195, 203);
-    width: 40%;
+    width: 45%;
     -webkit-box-shadow: 0px 7px 19px -2px #000000; 
     box-shadow: 0px 7px 19px -2px #000000;
     font-size: 14px;
@@ -178,4 +178,75 @@ li a {
 
 .white_star {
     color: white;
+}
+
+.dispo {
+    width: 200px;
+    height: 150px;
+}
+
+.hr_projets {
+    height: 100% !important;
+    width: 3px;
+    opacity: 1;
+}
+
+.projets_bg {
+    width: 400px;
+    height: 400px;
+}
+.projets_bg2 {
+    width: 450px;
+    height: 300px;
+}
+
+.projets_bg3 {
+    width: 450px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.projets_bg4 {
+    width: 450px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+#form input:focus, #form textarea:focus {
+    background-color: rgb(211, 243, 255) !important;
+}
+
+.color_mail {
+    color: white;
+}
+
+.background-champ {
+    background-color: rgb(233, 233, 233);
+}
+
+.bar_comp {
+    width: 60%;
+    height: 10px;
+    background-color: #000000;
+}
+
+.hr_comp {
+    width: 35%;
+    height: 2px !important;
+    color: #000000;
+    opacity: 1;
+}
+
+.progress {
+    background-color: #000000;
+}
+
+.comp_img {
+    width: 300px;
+    height: 200px;
+}
+
+.comp_margin {
+    margin-left: 25rem;
+    margin-right: 25rem;
 }
