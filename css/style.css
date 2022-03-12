@@ -165,6 +165,7 @@ li a {
     border-radius: 10px;
     background-color:rgb(166, 195, 203);
     width: 45%;
+    height: 360px;
     -webkit-box-shadow: 0px 7px 19px -2px #000000; 
     box-shadow: 0px 7px 19px -2px #000000;
     font-size: 14px;
