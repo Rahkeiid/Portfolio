@@ -251,3 +251,24 @@ li a {
     margin-left: 25rem;
     margin-right: 25rem;
 }
+
+.veille_img {
+    width: 400px;
+    height: 300px;
+}
+
+.veille_txt1 {
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+.veille_themes {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+.feedly_img {
+    width: 500px;
+    height: 200px;
+}
